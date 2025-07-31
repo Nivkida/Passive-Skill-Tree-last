@@ -1,0 +1,41 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.02,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:has_item_in_hand",
+        "item_condition": {
+          "type": "skilltree:equipment_type",
+          "equipment_type": "shield"
+        }
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_crit_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_crit_1.png",
+  "id": "skilltree:blacksmith_crit_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -243.6611,
+  "positionY": -173.02792,
+  "tags": []
+}

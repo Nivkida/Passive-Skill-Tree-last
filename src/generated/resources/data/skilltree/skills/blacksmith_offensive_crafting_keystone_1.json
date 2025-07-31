@@ -1,0 +1,40 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "amount": 0.25,
+          "attribute": "minecraft:generic.attack_speed",
+          "id": "d8a02e3f-75b8-4701-b351-b717af3f7293",
+          "name": "SkillBonus",
+          "operation": 1,
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "player_multiplier": {
+            "type": "skilltree:none"
+          }
+        }
+      },
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "melee_weapon"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_crafting_keystone_1.png",
+  "id": "skilltree:blacksmith_offensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -247.12148,
+  "positionY": -250.06187,
+  "tags": []
+}

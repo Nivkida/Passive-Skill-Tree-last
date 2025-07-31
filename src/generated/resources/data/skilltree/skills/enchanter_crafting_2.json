@@ -1,0 +1,22 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:free_enchantment",
+      "chance": 0.05
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_crafting_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_crafting_1.png",
+  "id": "skilltree:enchanter_crafting_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 81.40789,
+  "positionY": -46.997395,
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:potion_amplification",
+        "chance": 0.1
+      },
+      "item_condition": {
+        "type": "skilltree:potion",
+        "potion_type": "harmful"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:alchemist_offensive_crafting_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_offensive_crafting_1.png",
+  "id": "skilltree:alchemist_offensive_crafting_3",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -51.9798,
+  "positionY": 182.03247,
+  "tags": []
+}

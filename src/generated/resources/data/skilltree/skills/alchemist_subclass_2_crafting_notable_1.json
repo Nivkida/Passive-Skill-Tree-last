@@ -1,0 +1,27 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:potion_duration",
+        "multiplier": 0.1
+      },
+      "item_condition": {
+        "type": "skilltree:potion",
+        "potion_type": "beneficial"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_crafting_notable_1.png",
+  "id": "skilltree:alchemist_subclass_2_crafting_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 186.93625,
+  "positionY": 435.8003,
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.25,
+      "player_condition": {
+        "type": "skilltree:health_percentage",
+        "max": 0.5
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:alchemist_subclass_2_life_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_mastery.png",
+  "id": "skilltree:alchemist_subclass_2_mastery",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 142.95744,
+  "positionY": 451.9744,
+  "tags": []
+}

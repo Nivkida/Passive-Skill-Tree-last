@@ -1,0 +1,23 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "chance": 1.0,
+      "enchantment_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/enchanter_mastery.png",
+  "id": "skilltree:enchanter_mastery",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 354.67056,
+  "positionY": -204.75749,
+  "tags": []
+}

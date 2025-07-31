@@ -1,0 +1,40 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "amount": 5.0,
+          "attribute": "minecraft:generic.max_health",
+          "id": "f31b25ce-c9d6-4274-a5eb-e416a5f2700a",
+          "name": "SkillBonus",
+          "operation": 0,
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "player_multiplier": {
+            "type": "skilltree:none"
+          }
+        }
+      },
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "shield"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_life_notable_1.png",
+  "id": "skilltree:blacksmith_subclass_2_life_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -428.8894,
+  "positionY": -128.72784,
+  "tags": []
+}

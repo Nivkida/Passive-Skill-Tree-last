@@ -1,0 +1,23 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "experience_source": "fishing",
+      "multiplier": 0.2
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_special"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_1.png",
+  "id": "skilltree:cook_subclass_2_crafting_5",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -183.47227,
+  "positionY": -381.80008,
+  "tags": []
+}

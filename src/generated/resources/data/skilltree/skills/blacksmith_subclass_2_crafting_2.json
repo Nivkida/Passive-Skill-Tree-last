@@ -1,0 +1,27 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "any"
+      },
+      "multiplier": 0.05
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_2_crafting_3",
+    "skilltree:blacksmith_subclass_2_crafting_5"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_1.png",
+  "id": "skilltree:blacksmith_subclass_2_crafting_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -399.8586,
+  "positionY": -45.011627,
+  "tags": []
+}

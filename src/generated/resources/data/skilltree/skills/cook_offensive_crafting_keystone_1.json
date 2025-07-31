@@ -1,0 +1,28 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:food_effect",
+        "amplifier": 19,
+        "duration": 1200,
+        "effect": "skilltree:crit_damage_bonus"
+      },
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/cook_offensive_crafting_keystone_1.png",
+  "id": "skilltree:cook_offensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 92.98723,
+  "positionY": -339.04144,
+  "tags": []
+}

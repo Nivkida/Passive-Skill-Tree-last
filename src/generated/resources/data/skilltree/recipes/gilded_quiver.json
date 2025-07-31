@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "gilded_quiver",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/gold"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#ls",
+    "#ls",
+    "#ls"
+  ],
+  "result": {
+    "item": "skilltree:gilded_quiver"
+  },
+  "show_notification": true
+}

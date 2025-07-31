@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "healing_quiver",
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#ls",
+    "#ls",
+    "#ls"
+  ],
+  "result": {
+    "item": "skilltree:healing_quiver"
+  },
+  "show_notification": true
+}

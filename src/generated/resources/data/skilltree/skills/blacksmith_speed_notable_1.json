@@ -1,0 +1,34 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "6ac5855a-33cc-44aa-8629-c73d613bd103",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:has_item_in_hand",
+        "item_condition": {
+          "type": "skilltree:equipment_type",
+          "equipment_type": "shield"
+        }
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/blacksmith_speed_notable_1.png",
+  "id": "skilltree:blacksmith_speed_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -235.14684,
+  "positionY": -135.77867,
+  "tags": []
+}

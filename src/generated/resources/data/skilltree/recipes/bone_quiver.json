@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "bone_quiver",
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#ls",
+    "#ls",
+    "#ls"
+  ],
+  "result": {
+    "item": "skilltree:bone_quiver"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,42 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:gems_amount",
+        "item_condition": {
+          "type": "skilltree:equipment_type",
+          "equipment_type": "boots"
+        }
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:miner_subclass_1_offensive_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "id": "skilltree:miner_subclass_1_mastery",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -462.90488,
+  "positionY": 102.16851,
+  "tags": []
+}

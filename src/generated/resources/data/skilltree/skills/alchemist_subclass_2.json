@@ -1,0 +1,29 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:incoming_healing",
+      "multiplier": 0.15,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:alchemist_subclass_2_crafting_1",
+    "skilltree:alchemist_subclass_2_life_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2.png",
+  "id": "skilltree:alchemist_subclass_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 144.95734,
+  "positionY": 315.08533,
+  "tags": []
+}

@@ -1,0 +1,34 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.max_health",
+      "id": "8e7d975c-5f8d-46c4-a21f-f2d9d93e6867",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:attribute_value",
+        "attribute": "skilltree:evasion",
+        "divisor": 1.0
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_life_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_life_1.png",
+  "id": "skilltree:hunter_life_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 226.63171,
+  "positionY": 98.52425,
+  "tags": []
+}

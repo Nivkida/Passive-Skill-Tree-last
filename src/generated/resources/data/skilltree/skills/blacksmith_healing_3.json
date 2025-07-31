@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.1,
+      "attribute": "skilltree:regeneration",
+      "id": "c2f3aa72-5731-4aa2-bbea-9eaa3609fdf7",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_healing_2",
+    "skilltree:blacksmith_healing_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_healing_1.png",
+  "id": "skilltree:blacksmith_healing_3",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -165.24622,
+  "positionY": 0.37635994,
+  "tags": []
+}

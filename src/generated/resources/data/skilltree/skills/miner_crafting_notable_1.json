@@ -1,0 +1,22 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.1,
+      "loot_type": "gems",
+      "multiplier": 1.0
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/miner_crafting_notable_1.png",
+  "id": "skilltree:miner_crafting_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -32.043533,
+  "positionY": 18.498974,
+  "tags": []
+}

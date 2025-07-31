@@ -1,0 +1,26 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:food_saturation",
+        "multiplier": 0.05
+      },
+      "item_condition": {
+        "type": "skilltree:food"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "id": "skilltree:cook_lesser_3",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -27.99701,
+  "positionY": -349.53247,
+  "tags": []
+}

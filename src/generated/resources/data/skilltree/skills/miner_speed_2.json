@@ -1,0 +1,37 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.02,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "1a3529f6-4c26-47fb-aa76-51c038434aa6",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:has_gems",
+        "item_condition": {
+          "type": "skilltree:equipment_type",
+          "equipment_type": "weapon"
+        },
+        "min": 1
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:miner_speed_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
+  "id": "skilltree:miner_speed_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -249.15608,
+  "positionY": 111.512146,
+  "tags": []
+}

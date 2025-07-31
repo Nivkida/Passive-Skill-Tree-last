@@ -1,0 +1,35 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 10.0,
+      "attribute": "skilltree:blocking",
+      "id": "5c75436b-3459-4c89-84ca-4c1ad725a82a",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:food_level",
+        "min": 15
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "buttonSize": 20,
+  "directConnections": [
+    "skilltree:cook_defensive_4",
+    "skilltree:cook_defensive_crafting_5",
+    "skilltree:cook_subclass_2_defensive_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_defensive_notable_1.png",
+  "id": "skilltree:cook_defensive_notable_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -79.97825,
+  "positionY": -230.5333,
+  "tags": []
+}

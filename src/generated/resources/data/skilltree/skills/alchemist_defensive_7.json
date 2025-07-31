@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "skilltree:evasion",
+      "id": "cb8e3e82-8340-40cd-9159-75891bed137a",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:alchemist_defensive_8",
+    "skilltree:alchemist_lesser_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_1.png",
+  "id": "skilltree:alchemist_defensive_7",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 53.99701,
+  "positionY": 323.53247,
+  "tags": []
+}

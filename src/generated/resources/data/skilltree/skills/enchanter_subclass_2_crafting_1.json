@@ -1,0 +1,32 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.2,
+      "attribute": "skilltree:exp_per_minute",
+      "id": "bde548da-71fa-482b-beb6-ab36617bb037",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:enchanter_subclass_2_crafting_2"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_crafting_1.png",
+  "id": "skilltree:enchanter_subclass_2_crafting_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 216.40405,
+  "positionY": -310.7848,
+  "tags": []
+}

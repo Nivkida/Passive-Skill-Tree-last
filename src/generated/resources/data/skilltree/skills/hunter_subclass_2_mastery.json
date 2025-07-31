@@ -1,0 +1,30 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:quiver_capacity",
+        "chance": 25.0,
+        "operation": 0
+      },
+      "item_condition": {
+        "type": "skilltree:tag",
+        "tag_id": "curios:quiver"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [
+    "skilltree:hunter_subclass_2_life_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_2_mastery.png",
+  "id": "skilltree:hunter_subclass_2_mastery",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 462.88928,
+  "positionY": 102.192,
+  "tags": []
+}

@@ -1,0 +1,42 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "amount": 0.1,
+      "chance": 1.0,
+      "event_listener": {
+        "type": "skilltree:block",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:cook_offensive_crafting_3"
+  ],
+  "iconTexture": "skilltree:textures/icons/enchanter_healing_1.png",
+  "id": "skilltree:enchanter_healing_2",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 75.57135,
+  "positionY": -168.41748,
+  "tags": []
+}

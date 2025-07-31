@@ -1,0 +1,47 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:crit_chance",
+          "chance": 0.01,
+          "damage_condition": {
+            "type": "skilltree:none"
+          },
+          "enemy_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "target_condition": {
+            "type": "skilltree:none"
+          }
+        }
+      },
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "melee_weapon"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_special"
+  ],
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1_crafting_1.png",
+  "id": "skilltree:blacksmith_subclass_1_crafting_5",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -238.8901,
+  "positionY": -349.80698,
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:durability",
+        "amount": 0.05,
+        "operation": 1
+      },
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "any"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/blacksmith_lesser_1.png",
+  "id": "skilltree:blacksmith_lesser_3",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -316.6929,
+  "positionY": -150.53,
+  "tags": []
+}

@@ -1,0 +1,43 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "amount": 0.1,
+      "chance": 1.0,
+      "event_listener": {
+        "type": "skilltree:attack",
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:alchemist_healing_2",
+    "skilltree:alchemist_healing_4"
+  ],
+  "iconTexture": "skilltree:textures/icons/alchemist_healing_1.png",
+  "id": "skilltree:alchemist_healing_3",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 82.95905,
+  "positionY": 142.92189,
+  "tags": []
+}

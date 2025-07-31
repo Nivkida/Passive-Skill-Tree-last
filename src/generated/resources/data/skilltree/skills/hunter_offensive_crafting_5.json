@@ -1,0 +1,42 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_bonus": {
+        "type": "skilltree:skill_bonus",
+        "skill_bonus": {
+          "type": "skilltree:attribute",
+          "amount": 0.04,
+          "attribute": "minecraft:generic.attack_speed",
+          "id": "d5bb9864-2e47-45ea-a81e-5c11d4921ddc",
+          "name": "SkillBonus",
+          "operation": 1,
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "player_multiplier": {
+            "type": "skilltree:none"
+          }
+        }
+      },
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "ranged_weapon"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_offensive_crafting_6"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_crafting_1.png",
+  "id": "skilltree:hunter_offensive_crafting_5",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 172.64749,
+  "positionY": 207.05713,
+  "tags": []
+}

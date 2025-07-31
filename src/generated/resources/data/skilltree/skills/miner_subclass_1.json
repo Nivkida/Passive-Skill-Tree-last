@@ -1,0 +1,47 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "a4912871-cf95-4169-8cce-78a23e4cd833",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "a07b2bce-33aa-4f14-a4b7-4e861680095e",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 24,
+  "directConnections": [
+    "skilltree:miner_subclass_1_offensive_1",
+    "skilltree:miner_subclass_1_crafting_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1.png",
+  "id": "skilltree:miner_subclass_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -345.35162,
+  "positionY": 31.994904,
+  "tags": []
+}

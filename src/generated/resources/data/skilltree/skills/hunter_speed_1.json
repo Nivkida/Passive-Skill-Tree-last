@@ -1,0 +1,36 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 0.02,
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "17ad1a7c-1750-4cd8-9533-9b1da0de20e4",
+      "name": "SkillBonus",
+      "operation": 1,
+      "player_condition": {
+        "type": "skilltree:has_item_in_hand",
+        "item_condition": {
+          "type": "skilltree:equipment_type",
+          "equipment_type": "ranged_weapon"
+        }
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:hunter_speed_notable_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/hunter_speed_1.png",
+  "id": "skilltree:hunter_speed_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 249.14754,
+  "positionY": 111.52569,
+  "tags": []
+}

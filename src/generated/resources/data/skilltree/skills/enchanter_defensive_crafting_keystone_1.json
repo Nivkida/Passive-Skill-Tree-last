@@ -1,0 +1,23 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "chance": 0.4,
+      "enchantment_condition": {
+        "type": "skilltree:armor"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "buttonSize": 32,
+  "directConnections": [],
+  "iconTexture": "skilltree:textures/icons/enchanter_defensive_crafting_keystone_1.png",
+  "id": "skilltree:enchanter_defensive_crafting_keystone_1",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": 247.14545,
+  "positionY": -250.03818,
+  "tags": []
+}

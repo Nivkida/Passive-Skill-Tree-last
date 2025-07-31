@@ -1,0 +1,17 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "bonuses": [],
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "buttonSize": 30,
+  "directConnections": [
+    "skilltree:blacksmith_subclass_1_defensive_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "id": "skilltree:cook_gateway",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -105.95949,
+  "positionY": -184.53412,
+  "tags": []
+}

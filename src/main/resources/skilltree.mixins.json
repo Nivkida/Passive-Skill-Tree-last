@@ -1,0 +1,44 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "daripher.skilltree.mixin",
+  "mixins": [
+    "minecraft/EnchantmentMenuMixin",
+    "minecraft/PlayerMixin",
+    "minecraft/PotionItemMixin",
+    "minecraft/SmithingMenuMixin",
+    "minecraft/SimpleContainerMixin",
+    "minecraft/InventoryMenuMixin",
+    "minecraft/ItemStackMixin",
+    "minecraft/ItemMixin",
+    "minecraft/LivingEntityMixin",
+    "minecraft/AbstractArrowMixin",
+    "minecraft/FishingHookMixin",
+    "minecraft/PotionUtilsMixin",
+    "minecraft/AnvilMenuMixin",
+    "minecraft/AbstractContainerMenuMixin",
+    "minecraft/CraftingContainerMixin",
+    "minecraft/ArmorSlotMixin",
+    "easymagic/ModEnchantmentMenuMixin",
+    "apotheosis/ApothEnchantContainerMixin",
+    "apotheosis/SocketingRecipeMixin",
+    "apotheosis/AttributeBonusMixin",
+    "apotheosis/EnchantmentBonusMixin",
+    "AbstractArrowAccessor",
+    "LivingEntityAccessor",
+    "CampfireBlockEntityAccessor",
+    "ShapedRecipeAccessor",
+    "ShapelessRecipeAccessor"
+  ],
+  "client": [
+    "minecraft/RecipeBookComponentMixin",
+    "apotheosis/AdventureModuleClientMixin",
+    "EditBoxAccessor",
+    "RecipeCollectionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "skilltree.refmap.json"
+}

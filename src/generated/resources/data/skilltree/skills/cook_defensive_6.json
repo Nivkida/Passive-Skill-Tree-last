@@ -1,0 +1,33 @@
+{
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "amount": 1.0,
+      "attribute": "skilltree:blocking",
+      "id": "52dc98a7-b034-4d4d-b34a-19412ff9c2bb",
+      "name": "SkillBonus",
+      "operation": 0,
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "buttonSize": 16,
+  "directConnections": [
+    "skilltree:cook_defensive_7",
+    "skilltree:cook_crit_1"
+  ],
+  "iconTexture": "skilltree:textures/icons/cook_defensive_1.png",
+  "id": "skilltree:cook_defensive_6",
+  "isStartingPoint": false,
+  "longConnections": [],
+  "oneWayConnections": [],
+  "positionX": -53.99701,
+  "positionY": -297.53247,
+  "tags": []
+}

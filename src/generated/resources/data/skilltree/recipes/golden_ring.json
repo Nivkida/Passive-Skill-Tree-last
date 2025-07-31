@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "golden_ring",
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "item": "skilltree:golden_ring"
+  },
+  "show_notification": true
+}
